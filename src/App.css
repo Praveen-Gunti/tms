@@ -1,0 +1,8 @@
+:root {
+  --red: rgb(224, 24, 24);
+}
+.App {
+  margin: 1rem;
+  overflow: hidden;
+  color: black;
+}

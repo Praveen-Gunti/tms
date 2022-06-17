@@ -1,0 +1,36 @@
+.navbar-row {
+  /* height: 10vh; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+.name {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+.right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+.navlist {
+  flex: 10;
+}
+.navlist > ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 4rem;
+}
+.navlist > ul > li:hover {
+  cursor: pointer;
+  color: rgb(44, 191, 236);
+}

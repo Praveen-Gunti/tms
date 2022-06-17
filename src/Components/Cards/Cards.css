@@ -1,0 +1,11 @@
+.container {
+  margin-left: 2.5rem;
+}
+.box {
+  position: flex;
+  flex-direction: column;
+}
+img {
+  width: 15rem;
+  padding: 1rem;
+}
